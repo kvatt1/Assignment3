@@ -28,10 +28,8 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         padding: 1%;
-        grid-gap: 1%;       
+        grid-gap: 10px;       
         color: var(--font-color);
-        margin-top: 1%;
-        margin-bottom: 1%;
         justify-content: space-between;
         background-color:var(--background-color);        
     }
@@ -107,11 +105,13 @@
         }
         main {
             display: grid;
-            place-items: center;
+            justify-content: space-evenly;
             height: 100vh;
         }
         nav{
-            text-align: justify;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
         }
         .profile-img{
             width:150px;
