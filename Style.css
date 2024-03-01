@@ -28,7 +28,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         padding: 1%;
-        grid-gap: 10px;       
+        grid-gap: 1%;       
         color: var(--font-color);
         justify-content: space-between;
         background-color:var(--background-color);        
@@ -106,7 +106,7 @@
         main {
             display: grid;
             justify-content: space-evenly;
-            height: 100vh;
+            height: 50vh;
         }
         nav{
             display: flex;
