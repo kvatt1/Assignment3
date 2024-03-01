@@ -106,7 +106,7 @@
         main {
             display: grid;
             justify-content: space-evenly;
-            height: 50vh;
+            height: 80vh;
         }
         nav{
             display: flex;
